@@ -1,0 +1,32 @@
+
+
+import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonAlert, IonButton } from '@ionic/react';
+
+
+
+const Favorites: React.FC = () =>{
+      return(
+           <IonPage>
+              <IonHeader>
+                  <IonToolbar>
+                    <IonButtons>
+                    <IonMenuButton></IonMenuButton>
+                     <IonTitle>Favorites</IonTitle>
+                  </IonButtons>
+                </IonToolbar>
+              </IonHeader>
+              <IonContent className="ion-padding">
+                <h1>Favorites</h1>
+                  <IonButton id="present-alert">Click Me</IonButton>
+                  <IonAlert
+        trigger="present-alert"
+        header="Naa sad lgi ka deri?"
+        buttons={['Back kana']}
+      ></IonAlert>
+              </IonContent>
+              </IonPage>
+      );
+    
+
+};
+export default Favorites;
