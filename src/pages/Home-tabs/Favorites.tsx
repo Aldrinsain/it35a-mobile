@@ -4,6 +4,7 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
 
 
 
+
 const Favorites: React.FC = () =>{
       return(
            <IonPage>
@@ -26,7 +27,10 @@ const Favorites: React.FC = () =>{
               </IonContent>
               </IonPage>
       );
-    
-
+  
 };
+
+
+
+
 export default Favorites;

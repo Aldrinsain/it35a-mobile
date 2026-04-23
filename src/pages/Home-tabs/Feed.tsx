@@ -52,14 +52,10 @@ const Feed: React.FC = () =>{
               </IonCol>
 
 
-       
+
         </IonRow>
-      </IonGrid>
 
-
-                
-            
-                  
+      </IonGrid>                   
              <IonGrid>
                  <IonRow>
                    <IonCol>
@@ -69,10 +65,12 @@ const Feed: React.FC = () =>{
                     </IonButtons>
                    </IonCol>
 
+
                    <IonCol> <IonButtons>
                       <IonIcon icon={chatboxEllipsesOutline}></IonIcon>
                       <IonLabel style={ {marginLeft:"3px"}}> Comment</IonLabel>
                     </IonButtons></IonCol>
+
 
                    <IonCol> <IonButtons>
                       <IonIcon icon={shareOutline}></IonIcon>

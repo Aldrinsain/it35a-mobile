@@ -42,6 +42,8 @@ const Search: React.FC = () =>{
                  <IonItem>{result}</IonItem>
                 ))}
                 
+
+                
               </IonContent>
               </IonPage>
       );

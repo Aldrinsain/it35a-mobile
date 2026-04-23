@@ -30,7 +30,7 @@ const Home: React.FC = () => {
                            
                       ))}
         </IonTabBar>
-
+        
         <IonRouterOutlet>
            <Route exact path="/app/home/feed" component={Feed} />
             <Route exact path="/app/home">
