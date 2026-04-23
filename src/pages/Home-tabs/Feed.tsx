@@ -6,11 +6,11 @@ import { chatboxEllipsesOutline, shareOutline, thumbsDown, thumbsUpOutline } fro
 const Feed: React.FC = () =>{
 
   const games = [ 
-    {name: 'Pokémon Yellow'},
-     {name: 'Mega Man X'},
-      {name: 'The Legend of Zelda'},
-       {name: 'Pac-Man'},
-       {name: 'Super Mario World'}
+    {name: 'alal'},
+     {name: 'gionanny'},
+      {name: 'banban'},
+       {name: 'ariel'},
+       {name: 'momoy'}
        
   ]
 

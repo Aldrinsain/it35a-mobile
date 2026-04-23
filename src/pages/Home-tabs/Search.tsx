@@ -5,16 +5,11 @@ import { useState } from 'react';
 const Search: React.FC = () =>{
  
     const data = [
-    'Amsterdam',
-    'Buenos Aires',
-    'Cairo',
-    'Geneva',
-    'Hong Kong',
-    'Istanbul',
-    'London',
-    'Madrid',
-    'New York',
-    'Panama City',
+    'alal',
+    'gionanny',
+    'banban',
+    'ariel',
+    'momoy',
   ];
   let [results, setResults] = useState([...data]);
 
