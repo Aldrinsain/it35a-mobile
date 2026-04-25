@@ -1,10 +1,10 @@
 
 
-import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonItem, IonLabel, IonList, IonListHeader, IonSearchbar, IonButton, IonAlert } from '@ionic/react';
-import React from 'react';
+import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonAlert, IonButton } from '@ionic/react';
+
+
 
 const Favorites: React.FC = () =>{
-
       return(
            <IonPage>
               <IonHeader>
@@ -17,6 +17,12 @@ const Favorites: React.FC = () =>{
               </IonHeader>
               <IonContent className="ion-padding">
                 <h1>Favorites</h1>
+                  <IonButton id="present-alert">Click Me</IonButton>
+                  <IonAlert
+        trigger="present-alert"
+        header="Naa sad lgi ka deri?"
+        buttons={['Back kana']}
+      ></IonAlert>
               </IonContent>
               </IonPage>
       );
